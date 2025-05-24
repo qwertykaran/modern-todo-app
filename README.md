@@ -45,3 +45,85 @@ git clone https://github.com/qwertykaran/modern-todo-app.git
 cd modern-todo-app
 npm install
 npm run dev
+```
+Open http://localhost:3000 in your browser.
+
+### Backend
+```bash
+cd ../backend
+
+# Run Spring Boot application using Maven wrapper
+./mvnw spring-boot:run
+
+```
+Alternatively, run the main class from your IDE (IntelliJ, Eclipse).
+The backend API will be available at http://localhost:8080.
+
+###🛠️ Usage
+Add new todos by typing in the input box and pressing Enter or clicking the Add button.
+
+Edit todos by clicking the edit icon next to each task.
+
+Toggle task completion with the checkbox.
+
+Filter tasks by All, Active, or Completed using filter buttons.
+
+Delete todos by clicking the delete icon.
+
+Switch between light and dark modes using the toggle in the header.
+
+Todos sync locally and with the backend API if configured.
+
+###📁 Project Structure
+bash
+```
+Copy code
+modern-todo-app/
+├── frontend/        # Next.js + TypeScript + Tailwind CSS frontend
+├── backend/         # Java Spring Boot backend API
+├── README.md
+└── ...
+```
+### 🎯 Roadmap
+Add user authentication and authorization
+
+Connect frontend and backend for persistent storage
+
+Add database support (PostgreSQL, MySQL) in backend
+
+Implement real-time collaboration with WebSocket or Server-Sent Events
+
+Deploy frontend and backend to cloud platforms (Vercel, Heroku, AWS)
+
+Write comprehensive unit, integration, and E2E tests
+
+###🤝 Contributing
+Contributions are welcome! Please:
+
+Fork the repository
+
+Create a feature branch (git checkout -b feature-name)
+
+Commit your changes (git commit -m 'Add feature')
+
+Push to your branch (git push origin feature-name)
+
+Open a pull request
+
+Please follow existing code style and write meaningful commit messages.
+
+### 📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### 🙌 Acknowledgments
+Inspired by modern web app architectures combining React and Java backend
+
+Thanks to creators and maintainers of Next.js, Tailwind CSS, Spring Boot, and open-source contributors
+
+Special thanks to the community for valuable resources and support
+
+### 📞 Contact
+Created by Karan Soni
+Feel free to reach out at sonikaran440@gmail.com.
+
+Happy coding! 🚀
