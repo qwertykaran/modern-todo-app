@@ -24,3 +24,5 @@ dist/
 
 # JetBrains
 *.iml
+
+next-env.d.ts
