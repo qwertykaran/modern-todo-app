@@ -74,7 +74,7 @@ Switch between light and dark modes using the toggle in the header.
 
 Todos sync locally and with the backend API if configured.
 
-###📁 Project Structure
+### 📁 Project Structure
 bash
 ```
 Copy code
@@ -97,7 +97,7 @@ Deploy frontend and backend to cloud platforms (Vercel, Heroku, AWS)
 
 Write comprehensive unit, integration, and E2E tests
 
-###🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome! Please:
 
 Fork the repository
